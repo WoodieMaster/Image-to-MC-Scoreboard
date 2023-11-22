@@ -5,7 +5,7 @@ import zipfile
 APPDATA_PATH = os.getenv("APPDATA")
 MC_VERSION = "1.20.3-pre2"
 WORLD = "SnapShotTest"
-DATAPACK = "display"
+DATAPACK = "datapack_example"
 
 IN_PATH_P1 = f"{APPDATA_PATH}/.minecraft/versions/{MC_VERSION}/{MC_VERSION}"
 IN_PATH_COMPLETE = IN_PATH_P1 + "/assets/minecraft/textures/item/"
